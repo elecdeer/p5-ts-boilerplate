@@ -1,6 +1,6 @@
 import p5 from "p5";
 
-import tsIconImg from "./assets/tsIcon.png";
+import tsIconImg from "../assets/tsicon.png";
 
 export const sketch = (p5: p5): void => {
   let img: p5.Image;
