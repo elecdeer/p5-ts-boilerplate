@@ -18,13 +18,17 @@ module.exports = {
   ],
   rules: {
     "@typescript-eslint/no-unused-vars": "off",
-    "@typescript-eslint/restrict-template-expressions": ["warn", {
-      allowNumber: true,
-      allowBoolean: true,
-      allowAny: false,
-      allowNullish: true,
-      allowRegExp: true,
-    }],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/restrict-template-expressions": [
+      "warn",
+      {
+        allowNumber: true,
+        allowBoolean: true,
+        allowAny: false,
+        allowNullish: true,
+        allowRegExp: true,
+      },
+    ],
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "import/order": [
