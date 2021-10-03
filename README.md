@@ -12,3 +12,5 @@ Parcelでビルドしている。
 
 https://<userid>.github.io/<projectname>/public/dist/index.html
 でアクセスできる。
+  
+huskyが正常にインストールされていれば、コミット時に自動ビルドが走る。
